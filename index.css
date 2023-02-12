@@ -1,0 +1,50 @@
+body {
+    background-color: #123456;
+}
+#carouselExampleControls{
+    margin-top: 100px;
+}
+.carousel-item{
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: space-between!important;
+    align-items: center!important;
+}
+/* .carousel-item img {
+    width: 500px!important
+} */
+.text {
+    font-size: 40px;
+    color: #FF0000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.link {
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #902222;
+}
+
+.hoop {
+    position: absolute;
+    right: 0px;
+    bottom: 200px;
+    z-index: 999;
+}
+
+.basketball {
+    position: absolute;
+    right: 1300px;
+    bottom: 100px;
+}
+
+.slide1 {
+    width: 700px!important
+}
+.slide2 {
+    width: 400px!important
+}
+
+.slide3 {
+    width: 300px!important
+}

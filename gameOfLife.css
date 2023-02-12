@@ -1,0 +1,264 @@
+body {
+    background-color: #123456;
+    color: #FF0000;
+}
+
+button {
+    font-size: 0.64vw;
+    padding: 0.1vw;
+    border-radius: 10%;
+    background-color: #65829F;
+    color: #4a0e03;
+    border-color: #FF0000;
+    box-shadow: 10px;
+}
+
+#left-container {
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: space-between;
+    height: 14vw;
+    width: 17vw
+}
+
+#control-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 17vw;
+}
+
+#control-buttons button {
+font-size: 1.7vw;
+
+}
+#web-title {
+    color: #FF0000;
+    font-size: 3vw;
+    margin-left: 25px;
+    cursor: not-allowed;
+}
+
+#top-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.1vw;
+}
+
+.game-speed-textbox input {
+    width: 2.2vw;
+    height: 1.5vw;
+    font-size: 0.8vw;
+}
+
+#game-speed-container {
+    /* position: absolute;
+    left: 500px; */
+    box-sizing: content-box!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.rules-list {
+    font-size: 0.7vw;
+    padding-left: 0.7vw;
+    margin-bottom: 0
+}
+
+#rules-container {
+    width: 15vw;
+    box-sizing: content-box;
+    height: 14vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 170px;
+    margin-right: 210px;
+}
+
+.rule-container-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.color-picker-ui {
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.color-picker-ui button {
+    margin-left: 3px;
+    font-size: 0.8vw;
+}
+
+.game-speed-ui button {
+    margin-left: 3px;
+    font-size: 0.8vw;
+}
+
+.game-speed-ui {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* .rule1-part1 input {
+    position: static;
+} */
+
+/* .text-r1p1 {
+    position: absolute;
+    left: 150;
+    
+} */
+
+.rule-text {
+    font-size: 0.7vw;
+}
+
+#color-picker-container {
+    /* position: absolute;
+    left: 700px;
+    top: 70px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: content-box;
+}
+
+#pattern-container {
+    /* position: absolute;
+    right: 30px;
+    top: 70px; */
+    width: 15vw;
+    /* box-sizing: content-box; */
+    height: 14vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pattern-ui {
+    height: 14vw;
+}
+
+.pattern-selector select {
+    width: 14vw;
+}
+.pattern-textarea {
+    width: 14vw;
+}
+.custom-pattern-instruction {
+    font-size: 0.7vw;
+    width: 14vw;
+    padding-left: 0.7vw
+    /* word-wrap: break-word; */
+}
+
+.custom-pattern-ref {
+    box-sizing: content-box;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pattern-textarea::placeholder {
+    font-size: 0.7vw;
+    opacity: .5;
+}
+    .custom-pattern-link {
+        text-decoration: none;
+    }
+
+#canvas-container {
+    cursor: not-allowed;
+    
+}
+
+#pattern-container {
+    width: 14vw;
+    margin-right: 28px;
+}
+
+#canvas {
+    display: flex;
+    /* box-sizing: content-box; */
+    align-items: flex-end;
+    justify-content: center;
+    /* border: 5px #000000 solid; */
+    /* width: fit-content;
+    height: fit-content; */
+    /* width: 100vw;
+    height: calc(100vw *  ; */
+    /* height: 90vh; */
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+canvas {
+    background-color: #123456;
+}
+
+/* #canvas-container input {
+    color: #FF0000!important
+} */
+
+/* .p5Canvas {
+    border: 5px #000000 solid
+} */
+
+.rule1, .rule2 {
+    margin-bottom: 0.7vw;
+}
+
+.color-picker-ui input {
+    width: 13.3vw;
+    height: 1.5vw
+}
+
+.pattern-textarea{
+    resize: none;
+    overflow-y: scroll;
+    height: 3.4vw;
+}
+
+.gosper-glider-gun {
+    width: 17vw;
+    margin-top: 7px;
+}
+
+.glider {
+    width: 11vw;
+    margin-top: 7px;
+}
+
+.lightweight-spaceship {
+    width: 13vw;
+    margin-top: 7px;
+}
+
+#pattern-preview-container {
+    margin-right: 130px;
+}
+
+input {
+    background-color: #65829F;
+    color: #4a0e03;
+    text-align: center;
+    border-color:#FF0000
+}
+
+select {
+    background-color: #65829F;
+    color: #4a0e03;
+    border: 3px, #FF0000!important;
+}
